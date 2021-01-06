@@ -1,3 +1,5 @@
+// version 0.0.0.1
+
 function count_non_duplicate(s,window){
 var deb = 0;
 ins = "";
