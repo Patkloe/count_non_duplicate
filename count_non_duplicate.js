@@ -8,7 +8,7 @@ var res = {};
    }
    if(ins.length == window){
     res[ins] = ins.length;
-    ins = "s[deb]";
+    ins = s[deb];
    }
   deb++;
  }
