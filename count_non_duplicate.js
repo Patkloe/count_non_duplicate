@@ -9,8 +9,7 @@ function count_non_duplicate(s,window){
    let keys = Object.keys(dis);
    if(ins.length >= 0 || ins.length <= window)/*(keys.length >= 0 || keys.length <= window)*/{
      dis[s[deb]] = s[deb];
-      alert(dis);
-       if(keys.length == window){
+      if(keys.length == window){
          for( var i of keys){
           ins = ins + i;
          }
