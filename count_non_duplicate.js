@@ -14,8 +14,8 @@ function count_non_duplicate(s,window){
           ins = ins + i;
          }
           res[ins] = ins.length;
-          ins = ""; // reinitialise ins
-          // on doit reinitialiser dis
+          ins = s[deb]; // reinitialise ins
+          dis = {}; // on doit reinitialiser dis
        }
    }
    deb++;
